@@ -15,7 +15,7 @@ const Dashboard = () => {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const result = await axios.get('https://raw.githubusercontent.com/yourusername/netflix-dashboard/main/src/data/financialData.json');
+        const result = await axios.get('https://raw.githubusercontent.com/bethCoderNewbie/netflix-finratio-dashboard/main/src/data/financialData.json');
         setData(result.data);
       } catch (error) {
         console.error("Error fetching data:", error);
