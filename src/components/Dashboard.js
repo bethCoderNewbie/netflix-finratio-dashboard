@@ -30,7 +30,7 @@ const Dashboard = () => {
       
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
         <ChartCard title="Liquidity Ratios">
-          <ResponsiveContainer width="100%" height={300}>
+          <ResponsiveContainer width="50%" height={300}>
             <LineChart data={data}>
               <CartesianGrid strokeDasharray="3 3" />
               <XAxis dataKey="year" />
@@ -44,7 +44,7 @@ const Dashboard = () => {
         </ChartCard>
 
         <ChartCard title="Efficiency Ratios">
-          <ResponsiveContainer width="100%" height={300}>
+          <ResponsiveContainer width="50%" height={300}>
             <LineChart data={data}>
               <CartesianGrid strokeDasharray="3 3" />
               <XAxis dataKey="year" />
@@ -58,7 +58,7 @@ const Dashboard = () => {
         </ChartCard>
 
         <ChartCard title="Profitability Margins">
-          <ResponsiveContainer width="100%" height={300}>
+          <ResponsiveContainer width="50%" height={300}>
             <BarChart data={data}>
               <CartesianGrid strokeDasharray="3 3" />
               <XAxis dataKey="year" />
@@ -73,7 +73,7 @@ const Dashboard = () => {
         </ChartCard>
 
         <ChartCard title="Return Ratios">
-          <ResponsiveContainer width="100%" height={300}>
+          <ResponsiveContainer width="50%" height={300}>
             <LineChart data={data}>
               <CartesianGrid strokeDasharray="3 3" />
               <XAxis dataKey="year" />
@@ -87,7 +87,7 @@ const Dashboard = () => {
         </ChartCard>
 
         <ChartCard title="Leverage Ratios">
-          <ResponsiveContainer width="100%" height={300}>
+          <ResponsiveContainer width="50%" height={300}>
             <LineChart data={data}>
               <CartesianGrid strokeDasharray="3 3" />
               <XAxis dataKey="year" />
@@ -102,7 +102,7 @@ const Dashboard = () => {
         </ChartCard>
 
         <ChartCard title="Working Capital Management">
-          <ResponsiveContainer width="100%" height={300}>
+          <ResponsiveContainer width="50%" height={300}>
             <LineChart data={data}>
               <CartesianGrid strokeDasharray="3 3" />
               <XAxis dataKey="year" />
