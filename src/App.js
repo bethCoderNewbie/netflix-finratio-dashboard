@@ -11,7 +11,6 @@ function App() {
 
 export default App;
 
-# src/components/Dashboard.js
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import { BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer, LineChart, Line } from 'recharts';
